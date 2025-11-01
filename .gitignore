@@ -1,4 +1,47 @@
-.DS_Store
-Cargo.lock
-methods/guest/Cargo.lock
+# Rust
 target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# RISC Zero specific
+methods/guest/Cargo.lock
+*.elf
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+docs/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Environment files
+.env
+.env.local
+
+# Test artifacts
+*.profraw
+*.profdata
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
