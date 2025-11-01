@@ -45,3 +45,12 @@ docs/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Foundry / Solidity
+cache/
+out/
+broadcast/
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+*.swp

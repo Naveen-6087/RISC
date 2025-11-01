@@ -12,3 +12,11 @@ docs/
 
 # Dotenv file
 .env
+
+# Build artifacts
+*.swp
+*.swo
+*~
+
+# Dependencies - don't commit external libraries
+lib/
